@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.csproj",
-      "projectName": "GestorEx",
-      "projectPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.csproj",
+      "projectUniqueName": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.aplicacion.csproj",
+      "projectName": "GestorEx.aplicacion",
+      "projectPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.aplicacion.csproj",
       "packagesPath": "C:\\Users\\fedec\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\obj\\",
       "projectStyle": "PackageReference",
