@@ -21,6 +21,25 @@ El id de usuario (en trámites y expedientes) debe ser un id válido (entero may
 Para obtener un código desacoplado, implementar las validaciones de ambas entidades por medio de
 clases especializadas. Así, para validar la entidad Tramite definir una clase TramiteValidador.
 
+Codificar los casos de uso para realizar altas, bajas y modificaciones en las entidades Expediente y
+Trámite. Se debe tener en cuenta que las fechas de creación y modificación de estas entidades serán
+establecidas por el respectivo caso de uso, sobrescribiendo las fechas del objeto a persistir recibido como
+parámetro. Además, es necesario destacar que, en el caso de las altas, corresponde a los repositorios, y
+no a los casos de uso, la responsabilidad de asignar el Id de las entidades, asegurándose de asignarlos de
+manera automática e incremental.
+
+Las operaciones de eliminación, tanto de expedientes como de trámites, se llevarán a cabo utilizando el Id
+de la entidad que se desea eliminar y que se pasa como parámetro. Es importante destacar que al eliminar
+un expediente, se deben eliminar también todos los trámites asociados a dicho expediente.
+
+Se debe garantizar que para las operaciones de alta, baja y modificación se verifique la autorización del
+usuario antes de proceder. Por lo tanto, el método Ejecutar de estos casos de uso deberá recibir también el
+Id del usuario como parámetro.
+
+Asimismo, se debe desarrollar un caso de uso para listar todos los expedientes (sin incluir sus trámites) y
+otro para listar todos los trámites en el sistema que posean una etiqueta específica. Por ejemplo,
+podríamos querer listar todos los trámites de tipo "Resolución" que existen en el sistema,
+independientemente del expediente al que pertenezcan.
 */
 
 public class Tramite

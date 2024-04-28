@@ -1,11 +1,11 @@
 ﻿namespace GestorEx.aplicacion;
 
-public static class ServicioAutorizacionProvisorio
+public class ServicioAutorizacionProvisorio
 {
-    public static bool PoseeElPermiso(int IdUsuario, Permiso permiso)
+    public bool PoseeElPermiso(int IdUsuario, Permiso permiso)
     {
         if (IdUsuario == 1)
             return true;
-        return false;
+        throw new AutorizacionExcepcion("No posee el permiso");
     }
 }

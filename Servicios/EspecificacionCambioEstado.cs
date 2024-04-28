@@ -2,4 +2,6 @@
 
 public class EspecificacionCambioDeEstado
 {
+    public buscarEstado
+
 }
