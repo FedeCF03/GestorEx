@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.plicacion.csproj",
-      "projectName": "GestorEx.plicacion",
-      "projectPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.plicacion.csproj",
+      "projectUniqueName": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.Consola\\GestorEx.Consola.csproj",
+      "projectName": "GestorEx.Consola",
+      "projectPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.Consola\\GestorEx.Consola.csproj",
       "packagesPath": "C:\\Users\\fedec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\obj\\",
+      "outputPath": "C:\\Users\\fedec\\Downloads\\GestorEx\\GestorEx.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fedec\\AppData\\Roaming\\NuGet\\NuGet.Config"
